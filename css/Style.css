@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+}
+
+.menu{
+	padding: 0
+	margin:0;
+	list-style: none;
+}
+
+.menu-item:not(:last-child){
+	margin-right: 20px;
+}
+
+.menu-link{
+text-decoration: none;
+color: #111238;
+}
+
+.menu-link:hover{
+	color: #1A75E8;
+}
+
+.button-primary{
+	margin-left: 40px;
+}
+
+.row{
+	align-items: center;
+}
+
+.button-primary,.button-link{
+	text-decoration: none;
+	color: #111238;
+}
+
+.button-primary{
+	background: #1A75E8;
+	color:#FFFFFF;
+	border-radius: 5px;
+	padding: 15px 30px;
+}
+
+.col:last-child{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.button-link:hover{
+	color: #1A75E8;
+}
