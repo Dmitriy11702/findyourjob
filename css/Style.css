@@ -1,9 +1,17 @@
+*, *Lbefore, *:after{
+	box-sizing: border-box;
+}
+
 body{
 	margin:0;
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 }
 
+.header{
+	background: #F2F3F6;
+	padding-bottom: 5px;
+}
 .menu{
 	padding: 0
 	margin:0;
@@ -23,12 +31,8 @@ color: #111238;
 	color: #1A75E8;
 }
 
-.button-primary{
-	margin-left: 40px;
-}
-
-.row{
-	align-items: center;
+.button-link{
+	margin-right: 40px;
 }
 
 .button-primary,.button-link{
@@ -51,4 +55,111 @@ color: #111238;
 
 .button-link:hover{
 	color: #1A75E8;
+}
+
+.button{
+	display:inline-block;
+	border: none;
+	text-decoration: none;
+	font-size:16px;
+}
+.tag{
+	text-decoration: none;
+}
+
+.button-icon{
+vertical-align: middle;
+margin-right: 10px;
+
+}
+.button-text{
+	vertical-align: middle;
+}
+.herotitle{
+	font-size: 44px;
+	line-height: 52px;
+	color: #111238;
+	margin-bottom: 15px;
+	margin-top:40px;
+}
+
+.herotext{
+	color: #111238;
+	font-size: 18px;
+	line-height: 140%;
+	margin-bottom: 30px;
+}
+
+.input-group{
+	background: #fff;
+	border: 1px solid rgba(209, 209, 209, 0.1);
+	box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.input{
+	background: #fff;
+	border: none;
+	flex-grow: 1;
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 15px;
+	oy
+}
+.unput:focus{
+	outline: 1px dotted #666;
+}
+
+.tags-label{
+	color:#B2B2B2;
+	padding-left: 15px;
+	font-size:14px;
+	line-height: 17px;
+}
+
+.tag{
+	color:#B2B2B2;
+	border: 1px solid #B2B2B2;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	margin-left: 10px;
+	font-size:14px;
+	line-height: 17px;
+}
+
+.section-title{
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.section{
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.card-icons{
+fill:#111238;
+margin-bottom: 15px;
+transition: fill 0.3s;
+
+}
+
+.card{
+	text-decoration: none;
+	color:#111238;
+	background: #F2F3F6;
+	border-radius: 10px;
+	padding: 35px;
+	transition: background 0.3s, color 0.3s;
+}
+
+.card:hover{
+	background: #1A75E8;
+	color:#fff;
+	}
+
+.card:hover .card-icons{
+	fill:#fff;
 }
